@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>TJ Nicolaides</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#b22351" />
+      <stop offset="100%" stop-color="#5f8dff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#111527" />
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="url(#bg)" opacity="0.18" />
+  <path d="M18 18h28v6H35v22h-7V24H18z" fill="#eef3ff" />
+  <path d="M45 18v17c0 8-5.4 13-13.7 13-2.6 0-5.1-.5-7.2-1.5l2.2-5.5c1.5.6 3.1.9 4.6.9 4 0 7.1-2.1 7.1-7.2V18z" fill="#eef3ff" />
+</svg>
