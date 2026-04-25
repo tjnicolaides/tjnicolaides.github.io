@@ -114,6 +114,10 @@ h1 {
   cursor: default;
 }
 
+a {
+  color: var(--accent-hi);
+}
+
 nav {
   display: flex;
   flex-direction: column;
