@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   output: 'static',
-  site: 'https://tjnicolaides.github.io',
+  site: 'https://tjnicolaides.com',
   integrations: [sitemap()],
 });
