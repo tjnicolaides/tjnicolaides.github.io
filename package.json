@@ -12,6 +12,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "@fontsource/syne": "^5.2.7",
     "astro": "^6.0.8"
   }
 }
