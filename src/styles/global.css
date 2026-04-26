@@ -9,7 +9,7 @@
 :root {
   --bg: oklch(16% 0.055 265);
   --surface: oklch(21% 0.05 265);
-  --muted: oklch(48% 0.055 265);
+  --muted: oklch(62% 0.055 265);
   --fg: oklch(91% 0.018 265);
   --accent: oklch(52% 0.18 18);
   --accent-dim: color-mix(in oklch, var(--accent) 40%, var(--bg));
@@ -121,6 +121,12 @@ a {
   color: var(--accent-hi);
 }
 
+a:focus-visible {
+  outline: 2px solid var(--accent-hi);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -178,7 +184,7 @@ nav a:hover .icon-bluesky {
 
 .fine-print {
   margin-top: 48px;
-  color: var(--surface);
+  color: var(--muted);
   font-size: 11px;
   font-style: italic;
   transition: color 0.2s;
@@ -186,7 +192,7 @@ nav a:hover .icon-bluesky {
 }
 
 .fine-print:hover {
-  color: var(--muted);
+  color: var(--fg);
 }
 
 @media (max-width: 640px) {
