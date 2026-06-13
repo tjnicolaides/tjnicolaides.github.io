@@ -1,0 +1,21 @@
+# TJ Nicolaides
+
+TJ Nicolaides is an Engineering Manager at Airbnb based in Ardmore, PA.
+
+## Current Role
+
+Engineering Manager, Airbnb Friendly Apartments (AFA) — a marketplace product enabling apartment renters to host part-time on Airbnb. TJ leads a team of 7 engineers and is accountable for a platform spanning 1,300+ buildings across four countries (US, UK, Brazil, Canada), generating approximately $13M in annual host earnings.
+
+## Background
+
+Nearly 15 years of frontend engineering experience across web, iOS, and Android. Engineering leader with a player-coach philosophy: staying close to the technical work, defaulting to boring technology, and preferring monolith-first architecture before reaching for distributed complexity. Focused on building high-trust, collaborative teams that can navigate a rapidly transforming field.
+
+## Open To
+
+Director of Engineering roles at high-growth technology companies, particularly in marketplace, platform, or product engineering contexts.
+
+## Links
+
+- Personal site: https://tjnicolaides.com
+- LinkedIn: https://www.linkedin.com/in/tnicolaides/
+- GitHub: https://github.com/tjnicolaides
