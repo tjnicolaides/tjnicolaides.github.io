@@ -15,11 +15,40 @@ const jsonLd = {
   "@type": "Person",
   "name": "TJ Nicolaides",
   "url": "https://tjnicolaides.com",
+  "image": "https://tjnicolaides.com/images/photo.jpg",
+  "description": "Engineering Manager at Airbnb leading the Airbnb-Friendly Apartments marketplace across the US, UK, Brazil, and Canada. Player-coach EM with ~15 years of full-stack engineering experience across web, iOS, and Android (Rails, Java, Kotlin, PHP). Cross-functional range includes PM coverage. Based in the Philadelphia area, remote-first.",
   "jobTitle": "Engineering Manager",
   "worksFor": {
     "@type": "Organization",
     "name": "Airbnb"
   },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Engineering Manager",
+    "occupationLocation": { "@type": "City", "name": "Philadelphia" },
+    "responsibilities": "Lead a team of 7 engineers building the Airbnb-Friendly Apartments marketplace. Hiring, performance management, technical direction, and player-coach contribution on the highest-leverage work."
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "West Chester University"
+  },
+  "knowsAbout": [
+    "Engineering Leadership",
+    "Engineering Management",
+    "Full-Stack Engineering",
+    "Frontend Engineering",
+    "Backend Engineering",
+    "Platform Engineering",
+    "Product Engineering",
+    "Marketplace Systems",
+    "Two-Sided Marketplaces",
+    "API Design",
+    "Software Architecture",
+    "Mobile Development",
+    "Team Building",
+    "Technical Leadership",
+    "Player-Coach Management"
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Ardmore",
@@ -42,13 +71,22 @@ const jsonLd = {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="author" content="TJ Nicolaides" />
     <meta name="theme-color" content="#111527" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="TJ Nicolaides — Engineering Manager at Airbnb" />
+    <meta property="og:description" content="Engineering Manager at Airbnb leading the Airbnb-Friendly Apartments marketplace across the US, UK, Brazil, and Canada. Player-coach EM with ~15 years of full-stack engineering experience across web, iOS, and Android. Based in Philadelphia, remote-first." />
+    <meta property="og:url" content="https://tjnicolaides.com/" />
+    <meta property="og:image" content="https://tjnicolaides.com/images/photo.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TJ Nicolaides — Engineering Manager at Airbnb" />
+    <meta name="twitter:description" content="Engineering Manager at Airbnb leading the Airbnb-Friendly Apartments marketplace across the US, UK, Brazil, and Canada. Player-coach EM with ~15 years of full-stack engineering experience across web, iOS, and Android. Based in Philadelphia, remote-first." />
+    <meta name="twitter:image" content="https://tjnicolaides.com/images/photo.jpg" />
     <title>{title}</title>
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
     <link rel="canonical" href={canonicalURL} />
+    <link rel="me" href="https://www.linkedin.com/in/tnicolaides/" />
+    <link rel="me" href="https://github.com/tjnicolaides" />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
   <body>
