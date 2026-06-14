@@ -8,11 +8,11 @@ Engineering Manager, Airbnb Friendly Apartments (AFA) — a marketplace product 
 
 ## Background
 
-Nearly 15 years of frontend engineering experience across web, iOS, and Android. Engineering leader with a player-coach philosophy: staying close to the technical work, defaulting to boring technology, and preferring monolith-first architecture before reaching for distributed complexity. Focused on building high-trust, collaborative teams that can navigate a rapidly transforming field.
+~15 years of full-stack engineering experience across web, iOS, and Android. Backend work spans Rails, Java, Kotlin, and PHP, alongside deep frontend expertise. Engineering leader with a player-coach philosophy: staying close to the technical work, defaulting to boring technology, and preferring monolith-first architecture before reaching for distributed complexity. Focused on building high-trust, collaborative teams that can navigate a rapidly transforming field.
 
 ## Open To
 
-Director of Engineering roles at high-growth technology companies, particularly in marketplace, platform, or product engineering contexts.
+Director of Engineering, Senior Engineering Manager, Tech Lead Manager, and Staff Engineer roles at high-growth technology companies, particularly in marketplace, platform, or product engineering contexts.
 
 ## Links
 
